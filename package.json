@@ -1,0 +1,25 @@
+{
+  "name": "til",
+  "version": "1.0.0",
+  "description": "Today I Learned",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canhta/til.git"
+  },
+  "keywords": [],
+  "author": "Canh Ta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canhta/til/issues"
+  },
+  "homepage": "https://github.com/canhta/til#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "prettier": "3.0.3"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
